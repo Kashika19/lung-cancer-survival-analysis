@@ -5,11 +5,15 @@
 .Rproj.user/
 *.Rproj
 
-# Local packages and generated outputs
+# Local packages and caches
 renv/library/
 renv/staging/
 .Rcache/
 cache/
+
+# Generated analysis outputs (keep documentation)
+outputs/*
+!outputs/README.md
 
 # Local configuration, secrets, and restricted data
 .env
