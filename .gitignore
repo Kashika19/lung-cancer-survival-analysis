@@ -1,0 +1,25 @@
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# Local packages and generated outputs
+renv/library/
+renv/staging/
+.Rcache/
+cache/
+
+# Local configuration, secrets, and restricted data
+.env
+.env.*
+!.env.example
+data/private/
+data/raw/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
